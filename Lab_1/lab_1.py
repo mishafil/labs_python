@@ -1,4 +1,8 @@
-def boolean(a, b):
+#
+# Created by mishafil on 21.09.2018.
+#
+
+def boolean(a, b): 
     check = False
 
     try:
@@ -13,6 +17,8 @@ def boolean(a, b):
             return check
     except:
         print("Exception")
+        
+# func to finding SimpleDigits
 
 def simpleDigits(a, b):
     try:
